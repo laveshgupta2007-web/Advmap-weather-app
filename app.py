@@ -22,3 +22,6 @@ if city:
 
     else:
         st.error(f"Error: {data.get('message')}")
+
+else:
+    st.info("👆 Enter a city name to see weather")
