@@ -1,6 +1,14 @@
 import streamlit as st
 import requests
 
+import streamlit as st
+import requests
+
+# Google verification tag (IMPORTANT)
+st.markdown("""
+<meta name="google-site-verification" content="LfImxwelyzqihg4Xw-FHabajGjfo5soZGvrDMPwUOio" />
+""", unsafe_allow_html=True)
+
 API_KEY = "af240cca6083b79def74e9d0b9b992e9"
 
 st.title("🌤 Live Weather Dashboard")
